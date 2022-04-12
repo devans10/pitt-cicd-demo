@@ -69,7 +69,7 @@ def get_message(item):
         Key={"lang": item.Lang},
     )
 
-    # time.sleep(1)
+    time.sleep(1)
 
     if "Item" not in response:
         raise NoRecordError("No Records Found.")

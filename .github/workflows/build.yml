@@ -135,7 +135,7 @@ jobs:
 
       - name: Run k6 test
         uses: grafana/k6-action@v0.2.0
-        continue-on-error: true
+        #continue-on-error: true
         with:
           filename: tests/performance/performance.js
         env:
