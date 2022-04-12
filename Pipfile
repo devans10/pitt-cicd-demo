@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 googletrans = "*"
 boto3 = "*"
+dnspython = "1.16.0"
 
 [dev-packages]
 pytest = "*"
